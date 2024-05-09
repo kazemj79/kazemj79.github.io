@@ -1,0 +1,69 @@
+/**/
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+body {
+    position: relative;
+    height: 620px;
+    background-color: darkcyan;
+}
+.button {
+    display: inline-block;
+    position: absolute;
+    background-color: #111;
+    color: #dfe;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border-radius: 20px;
+}
+.button:hover {
+    cursor: pointer;
+}
+.numbers {
+    width: 80%;
+    height: 70px;
+    margin: auto 10%;
+}
+#start {
+    width: 80%;
+    height: 70px;
+    margin: auto 10%;
+    bottom: 95px;
+}
+#num1{
+    bottom: 180px;
+}
+#num2{
+    bottom: 95px;
+}
+#num3{
+    bottom: 10px;
+}
+#restart {
+    top: 10%;
+    right: 10%;
+    border-radius: 9px;
+}
+h1 {
+    position: absolute;
+    top: 180px;
+    left: 45%;
+}
+h2 {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #dfe;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 4px;}
+.hidden {
+    display: none;
+}
+.lose-game {
+    background-color: #e71425;
+}
